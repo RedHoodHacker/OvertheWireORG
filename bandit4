@@ -1,0 +1,4 @@
+cd inhere/
+cat ./* 
+password is outputed with the rest of the fake files.
+      

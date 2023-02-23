@@ -1,0 +1,18 @@
+mkdir /tmp/testenvi
+cp data.txt /tmp/testenvi
+mv data.txt data
+xxd -r data > binary
+file binary
+mv binary binary.gz
+gunzip binary.gz
+bunzip2 binary
+file binary.out
+mv binary.out binary.gz
+gunzip binary.gz
+tar -xf binary
+tar -xf data5.bin
+bunzip data6.bin
+tar -xf data6.bin.out
+mv data8.bin data8.gz 
+gunzip data8.gz
+cat data8

@@ -1,0 +1,2 @@
+openssl s_client -host localhost -port 30001
+paste in current password

@@ -1,0 +1,2 @@
+echo <previousPassword> | netcat localhost 30000
+

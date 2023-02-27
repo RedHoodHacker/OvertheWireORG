@@ -1,1 +1,6 @@
-
+openssl s_client -host locahost -port 31790
+enter current password from 16
+you should get a cert that will be used to create a ssh key.
+create an ssh key with chmod 600 and the key information.
+ssh -i sshkey.private bandit17@bandit.labs.overthewire.org
+cat /etc/bandit_pass/bandit17

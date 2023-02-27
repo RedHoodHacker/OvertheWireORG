@@ -1,0 +1,2 @@
+diff passwords.new passwords.old
+if u try logging in with the new password from passwords.new in ssh, you'll be greated on 18 with ByeBye! Which means you should solve for 19.

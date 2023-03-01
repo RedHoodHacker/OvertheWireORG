@@ -1,1 +1,2 @@
 
+echo "Password to 20" | nc -lp 1234 & 
